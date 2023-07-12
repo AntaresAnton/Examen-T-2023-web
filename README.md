@@ -13,9 +13,11 @@ Para ingresar datos
 }
 
 #Ojo, los user role están desglosados en:
+{
 ADMIN_ROLE
 USER_ROLE
 VENTAS_ROLE
+}
 
 los datos se eliminan de acuerdo a el "user ID"
 para obtener los usuarios, es lo mismo
