@@ -1,5 +1,9 @@
 body{
     font-family: 'Titillium Web', sans-serif !important;
+    background-image: url(../img/bg.png);
+    background-position: center;
+    color: #fff !important;
+
 }
 
 .paciente{

@@ -14,7 +14,7 @@ const apiExamen=async(pagina)=>{
     data.usuarios.forEach(usuarios=> {
         // esto es para que haga el bucle del array :
         divItem=document.createElement('tr')
-        // El card
+
             divItem.innerHTML=`
             <td scope="row">${usuarios._id}</td>
             <td>${usuarios.nombre}</td>
@@ -22,6 +22,13 @@ const apiExamen=async(pagina)=>{
             <td>${usuarios.rol}</td>
             <td>${usuarios.estado}</td>
             `
+
+            divItem=document.createElement('ul')
+            divItem.innerHTML=`
+            <li><a class="text-decoration-none" href="#">${usuarios._id}</a></li>
+            `
+
+
             divRes.appendChild(divItem);
     });
 }
