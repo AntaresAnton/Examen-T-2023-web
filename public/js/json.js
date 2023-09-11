@@ -23,10 +23,10 @@ const apiExamen=async(pagina)=>{
             <td>${usuarios.estado}</td>
             `
 
-            divItem=document.createElement('ul')
-            divItem.innerHTML=`
-            <li><a class="text-decoration-none" href="#">${usuarios._id}</a></li>
-            `
+            // divItem=document.createElement('ul')
+            // divItem.innerHTML=`
+            // <li><a class="text-decoration-none" href="#">${usuarios._id}</a></li>
+            // `
 
 
             divRes.appendChild(divItem);
